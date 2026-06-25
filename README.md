@@ -7,3 +7,4 @@ Projet d'apprentissage Git pour le cours DevOps.
 - Fonction d'addition
 
 ## Auteur : Aribi Zakaria
+# Correctif v2.0.1
