@@ -1,32 +1,14 @@
 def saluer(nom):
-return f"Bonjour, {nom} !"
+    return f"Bonjour, {nom} !"
+
 def additionner(a, b):
     return a + b
-def saluer(nom):
-    return f"Bonjour, {nom} !"
+
 if __name__ == "__main__":
     print(saluer("DevOps"))
 def multiplier(a, b):
     return a * b
-<<<<<<< HEAD
 def diviser(a, b):
     if b == 0:
         raise ValueError("Division par zéro impossible")
     return a / b
-=======
-import datetime
-
-def log(message):
-    ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"[{ts}] {message}")
->>>>>>> feature/logging
-def puissance(base, exp):
-    # TODO: gérer les exposants négatifs
-    return base ** exp
-
-
-import datetime
-
-def log(message):
-    ts = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"[{ts}] {message}")
